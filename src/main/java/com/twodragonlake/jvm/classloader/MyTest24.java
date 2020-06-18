@@ -26,7 +26,7 @@ package com.twodragonlake.jvm.classloader;
 /*
 当前类加载器(Current ClassLoader)
 每个类都会使用自己的类加载器(即加载自身的类加载器) 来去加载其他类(指的是所依赖的类)
-如果ClassA引用了ClassY，那么ClassX的类加载器就会加载ClassY（前提是ClassY尚未被加载）
+如果ClassX引用了ClassY，那么ClassX的类加载器就会加载ClassY（前提是ClassY尚未被加载）
 
 线程上下文加载器（Context  ClassLoader）
 线程上下文类加载器是从jdk1.2开始引入的，类Thread中的getContextCLassLoader()与setContextClassLoader(ClassLoader classloader)

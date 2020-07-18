@@ -1,32 +1,6 @@
 # deepUnderstandingJvm
 jvm 相关学习，目前是类加载器部分，后续持续更新
-# Related articles[csdn]
 
-* [jvm原理（1）类加载器深入解析与阶段分解](https://blog.csdn.net/wzq6578702/article/details/79369460)
-* [jvm原理（2）常量的本质含义与反编译及助记符详解](https://blog.csdn.net/wzq6578702/article/details/79370149)
-* [jvm原理（3）编译期常量与运行期常量的区别及数组创建本质分析](https://blog.csdn.net/wzq6578702/article/details/79370662)
-* [jvm原理（4）接口初始化规则与类加载器准备阶段和初始化阶段的重要意义](https://blog.csdn.net/wzq6578702/article/details/79382182)
-* [jvm原理（5）类加载器深入解析及重要特性剖析](https://blog.csdn.net/wzq6578702/article/details/79394138)
-* [jvm原理（6）类加载器双亲委托机制详解](https://blog.csdn.net/wzq6578702/article/details/79430576)
-* [jvm原理（7）类加载器与类初始化深度剖析](https://blog.csdn.net/wzq6578702/article/details/79436073)
-* [jvm原理（8）不同的类加载器与加载与加载动作分析](https://blog.csdn.net/wzq6578702/article/details/79533788)
-* [jvm原理（9）ClassLoader源码分析与实例剖析](https://blog.csdn.net/wzq6578702/article/details/79547598)
-* [jvm原理（10）自定义类加载器深入详解](https://blog.csdn.net/wzq6578702/article/details/79548157)
-* [jvm原理（11）类加载器重要方法详解](https://blog.csdn.net/wzq6578702/article/details/79600435)
-* [jvm原理（12）类加载器双亲委托机制实例深度剖析](https://blog.csdn.net/wzq6578702/article/details/79601719)
-* [jvm原理（13）类的命名空间与卸载详解及jvisualvm使用](https://blog.csdn.net/wzq6578702/article/details/79603623)
-* [jvm原理（14）自定义类加载器在复杂类加载情况下的运行分析](https://blog.csdn.net/wzq6578702/article/details/79827348)
-* [jvm原理（15）类加载器命名空间实战剖析与透彻理解](https://blog.csdn.net/wzq6578702/article/details/79828510)
-* [jvm原理（16）类加载器实战剖析与疑难点解析](https://blog.csdn.net/wzq6578702/article/details/79829341)
-* [jvm原理（17）类加载器命名空间深度解析与实例分析](https://blog.csdn.net/wzq6578702/article/details/79834156)
-* [jvm原理（18）类加载器命名空间总结与扩展类加载器要点分析](https://blog.csdn.net/wzq6578702/article/details/79834831)
-* [jvm原理（19）平台特定的启动类加载器深入分析与自定义系统类加载器详解](https://blog.csdn.net/wzq6578702/article/details/79835695)
-* [jvm原理（20）Launcher类源码分析以及forName方法底层剖析](https://blog.csdn.net/wzq6578702/article/details/79950220)
-* [jvm原理（21）线程上下文类加载器分析与实现](https://blog.csdn.net/wzq6578702/article/details/79951119)
-* [jvm原理（22）线程上下文类加载器本质剖析与实做&ServiceLoader在SPI中的重要作用分析](https://blog.csdn.net/wzq6578702/article/details/80058286)
-* [jvm原理（23）线程上下文类加载器实战分析与难点剖析](https://blog.csdn.net/wzq6578702/article/details/80071277)
-* [jvm原理（24）通过JDBC驱动加载深刻理解线程上下文类加载器机制](https://blog.csdn.net/wzq6578702/article/details/80160752)
-  [csdn停止更新，后续都在github blog更新]
 # Related articles[github blog]
 
 * [jvm原理（1）类加载器深入解析与阶段分解](https://1156721874.github.io/2018/10/04/jvm%E5%8E%9F%E7%90%86%EF%BC%881%EF%BC%89%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90%E4%B8%8E%E9%98%B6%E6%AE%B5%E5%88%86%E8%A7%A3/)
@@ -76,3 +50,34 @@ jvm 相关学习，目前是类加载器部分，后续持续更新
 * [jvm原理（45）安全点与安全区域详解](https://1156721874.github.io/2019/05/19/jvm%E5%8E%9F%E7%90%86%EF%BC%8845%EF%BC%89%E5%AE%89%E5%85%A8%E7%82%B9%E4%B8%8E%E5%AE%89%E5%85%A8%E5%8C%BA%E5%9F%9F%E8%AF%A6%E8%A7%A3/)
 * [jvm原理（46）CMS垃圾收集器深入讲解](https://1156721874.github.io/2019/05/19/jvm%E5%8E%9F%E7%90%86%EF%BC%8846%EF%BC%89CMS%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8%E6%B7%B1%E5%85%A5%E8%AE%B2%E8%A7%A3/)
 * [jvm原理（47）G1垃圾收集器系列深入讲解](https://1156721874.github.io/2019/06/07/jvm%E5%8E%9F%E7%90%86%EF%BC%8847%EF%BC%89G1%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8%E7%B3%BB%E5%88%97%E6%B7%B1%E5%85%A5%E8%AE%B2%E8%A7%A3/)
+* [jvm原理（48）强引用-软引用-弱引用-虚引用-ThreadLocal](https://ceaser.wang/2020/03/08/jvm%E5%8E%9F%E7%90%86%EF%BC%8848%EF%BC%89%E5%BC%BA%E5%BC%95%E7%94%A8-%E8%BD%AF%E5%BC%95%E7%94%A8-%E5%BC%B1%E5%BC%95%E7%94%A8-%E8%99%9A%E5%BC%95%E7%94%A8-ThreadLocal/)
+* [jvm原理（49）ThreadLocal内存泄露问题本质分析与推导](https://ceaser.wang/2020/03/31/jvm%E5%8E%9F%E7%90%86%EF%BC%8849%EF%BC%89ThreadLocal%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E9%97%AE%E9%A2%98%E6%9C%AC%E8%B4%A8%E5%88%86%E6%9E%90%E4%B8%8E%E6%8E%A8%E5%AF%BC/)
+* [jvm原理（50）jvm锁](https://ceaser.wang/2020/04/08/jvm%E5%8E%9F%E7%90%86%EF%BC%8850%EF%BC%89jvm%E9%94%81/)
+
+# Related articles[csdn]
+
+* [jvm原理（1）类加载器深入解析与阶段分解](https://blog.csdn.net/wzq6578702/article/details/79369460)
+* [jvm原理（2）常量的本质含义与反编译及助记符详解](https://blog.csdn.net/wzq6578702/article/details/79370149)
+* [jvm原理（3）编译期常量与运行期常量的区别及数组创建本质分析](https://blog.csdn.net/wzq6578702/article/details/79370662)
+* [jvm原理（4）接口初始化规则与类加载器准备阶段和初始化阶段的重要意义](https://blog.csdn.net/wzq6578702/article/details/79382182)
+* [jvm原理（5）类加载器深入解析及重要特性剖析](https://blog.csdn.net/wzq6578702/article/details/79394138)
+* [jvm原理（6）类加载器双亲委托机制详解](https://blog.csdn.net/wzq6578702/article/details/79430576)
+* [jvm原理（7）类加载器与类初始化深度剖析](https://blog.csdn.net/wzq6578702/article/details/79436073)
+* [jvm原理（8）不同的类加载器与加载与加载动作分析](https://blog.csdn.net/wzq6578702/article/details/79533788)
+* [jvm原理（9）ClassLoader源码分析与实例剖析](https://blog.csdn.net/wzq6578702/article/details/79547598)
+* [jvm原理（10）自定义类加载器深入详解](https://blog.csdn.net/wzq6578702/article/details/79548157)
+* [jvm原理（11）类加载器重要方法详解](https://blog.csdn.net/wzq6578702/article/details/79600435)
+* [jvm原理（12）类加载器双亲委托机制实例深度剖析](https://blog.csdn.net/wzq6578702/article/details/79601719)
+* [jvm原理（13）类的命名空间与卸载详解及jvisualvm使用](https://blog.csdn.net/wzq6578702/article/details/79603623)
+* [jvm原理（14）自定义类加载器在复杂类加载情况下的运行分析](https://blog.csdn.net/wzq6578702/article/details/79827348)
+* [jvm原理（15）类加载器命名空间实战剖析与透彻理解](https://blog.csdn.net/wzq6578702/article/details/79828510)
+* [jvm原理（16）类加载器实战剖析与疑难点解析](https://blog.csdn.net/wzq6578702/article/details/79829341)
+* [jvm原理（17）类加载器命名空间深度解析与实例分析](https://blog.csdn.net/wzq6578702/article/details/79834156)
+* [jvm原理（18）类加载器命名空间总结与扩展类加载器要点分析](https://blog.csdn.net/wzq6578702/article/details/79834831)
+* [jvm原理（19）平台特定的启动类加载器深入分析与自定义系统类加载器详解](https://blog.csdn.net/wzq6578702/article/details/79835695)
+* [jvm原理（20）Launcher类源码分析以及forName方法底层剖析](https://blog.csdn.net/wzq6578702/article/details/79950220)
+* [jvm原理（21）线程上下文类加载器分析与实现](https://blog.csdn.net/wzq6578702/article/details/79951119)
+* [jvm原理（22）线程上下文类加载器本质剖析与实做&ServiceLoader在SPI中的重要作用分析](https://blog.csdn.net/wzq6578702/article/details/80058286)
+* [jvm原理（23）线程上下文类加载器实战分析与难点剖析](https://blog.csdn.net/wzq6578702/article/details/80071277)
+* [jvm原理（24）通过JDBC驱动加载深刻理解线程上下文类加载器机制](https://blog.csdn.net/wzq6578702/article/details/80160752)
+  [csdn停止更新，后续都在github blog更新]
